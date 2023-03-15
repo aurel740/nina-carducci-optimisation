@@ -131,7 +131,7 @@
       if (activeTag === "all") {
         $(".item-column").each(function() {
           if ($(this).children("img").length) {
-            imagesCollection.push($(this).children("img"));
+            imagesCollection.push($(this).children("img")[0]);
           }
         });
       } else {
@@ -141,7 +141,7 @@
               .children("img")
               .data("gallery-tag") === activeTag
           ) {
-            imagesCollection.push($(this).children("img"));
+            imagesCollection.push($(this).children("img")[0]);
           }
         });
       }
@@ -150,7 +150,7 @@
 
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
-          index = i ;
+          index = i - 1 ;
         }
       });
       next =
@@ -170,7 +170,7 @@
       if (activeTag === "all") {
         $(".item-column").each(function() {
           if ($(this).children("img").length) {
-            imagesCollection.push($(this).children("img"));
+            imagesCollection.push($(this).children("img")[0]);
           }
         });
       } else {
@@ -180,7 +180,7 @@
               .children("img")
               .data("gallery-tag") === activeTag
           ) {
-            imagesCollection.push($(this).children("img"));
+            imagesCollection.push($(this).children("img")[0]);
           }
         });
       }
@@ -189,7 +189,7 @@
 
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
-          index = i;
+          index = i + 1;
         }
       });
       next = imagesCollection[index] || imagesCollection[0];

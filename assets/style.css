@@ -405,3 +405,6 @@ footer img{
 	filter: invert(100%);
 	margin-right: 5px;
 }
+.test {
+	width: 10px;
+}

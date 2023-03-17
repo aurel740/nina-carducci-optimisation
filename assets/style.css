@@ -376,7 +376,6 @@ input[type="submit"] {
 	footer{
 		display: flex;
 		flex-direction: column;
-		justify-content: baseline;
 		padding-left: 30px;
 	}
 }

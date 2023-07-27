@@ -1,1 +1,3 @@
-Optimisation du site
+<h1>Optimisation du site</h1>
+
+Dans ce projet, j'ai pris en charge l'optimisation globale du site, en améliorant ses performances et son référencement SEO. J'ai également mis en œuvre le référencement local en utilisant Schema.org, ajouté des metas pour les réseaux sociaux et optimisé l'accessibilité du site. Le rapport d'optimisation que j'ai produit présente de manière claire et accessible toutes les actions entreprises et leur impact. Mon objectif était de rendre le projet compréhensible et satisfaisant pour le client tout en offrant une meilleure expérience utilisateur. Le site avant:( https://nina-carducci.github.io/ ).
